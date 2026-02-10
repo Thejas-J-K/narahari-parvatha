@@ -1,0 +1,62 @@
+.fade-up {
+ animation: fadeUp 1.2s ease forwards;
+}
+
+.fade-down {
+ animation: fadeDown 1s ease forwards;
+}
+
+.zoom-in {
+ animation: zoomIn 1.3s ease forwards;
+}
+
+.slide-left {
+ animation: slideLeft 1s ease forwards;
+}
+
+.slide-right {
+ animation: slideRight 1s ease forwards;
+}
+
+.slide-up {
+ animation: slideUp 1s ease forwards;
+}
+
+.slide-down {
+ animation: slideDown 1s ease forwards;
+}
+
+@keyframes fadeUp {
+ from { opacity:0; transform:translateY(40px); }
+ to { opacity:1; transform:translateY(0); }
+}
+
+@keyframes fadeDown {
+ from { opacity:0; transform:translateY(-40px); }
+ to { opacity:1; transform:translateY(0); }
+}
+
+@keyframes zoomIn {
+ from { transform:scale(1.2); opacity:0; }
+ to { transform:scale(1); opacity:1; }
+}
+
+@keyframes slideLeft {
+ from { opacity:0; transform:translateX(-50px); }
+ to { opacity:1; transform:translateX(0); }
+}
+
+@keyframes slideRight {
+ from { opacity:0; transform:translateX(50px); }
+ to { opacity:1; transform:translateX(0); }
+}
+
+@keyframes slideUp {
+ from { opacity:0; transform:translateY(50px); }
+ to { opacity:1; transform:translateY(0); }
+}
+
+@keyframes slideDown {
+ from { opacity:0; transform:translateY(-50px); }
+ to { opacity:1; transform:translateY(0); }
+}
