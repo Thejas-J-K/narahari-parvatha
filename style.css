@@ -197,3 +197,147 @@ footer {
  padding:30px;
  font-size:16px;
 }
+/* ===============================
+   MOBILE RESPONSIVE STYLES
+   =============================== */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    padding: 10px 15px;
+  }
+
+  nav h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+
+  nav button {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding: 100px 20px 60px;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 26px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-content button {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 60px 18px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* CARDS */
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  /* GALLERY */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .gallery img {
+    height: auto;
+  }
+
+  /* VISIT LIST */
+  .visit-list {
+    padding-left: 0;
+  }
+
+  .visit-list li {
+    font-size: 14px;
+  }
+
+  /* FORM */
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  footer p {
+    font-size: 13px;
+  }
+}
+
+/* EXTRA SMALL PHONES */
+@media (max-width: 480px) {
+
+  .hero-content h2 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  nav ul {
+    gap: 6px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
